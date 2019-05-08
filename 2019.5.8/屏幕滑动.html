@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=600,user-scalable=no">
+	<title></title>
+	<script src='js/swiper.js'></script>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		html,body{
+			width:100vw;
+			height:100vh;
+			overflow: hidden;
+		}
+		.box{
+			width:800%;
+			height:100%;
+			transition: 1s;
+			position: absolute;
+		}
+		.box section{
+			width:12.5%;
+			height:100%;
+			float: left;
+		}
+		.box section:nth-of-type(1){
+			background:url(img/001.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(2){
+			background:url(img/002.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(3){
+			background:url(img/003.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(4){
+			background:url(img/004.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(5){
+			background:url(img/005.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(6){
+			background:url(img/006.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(7){
+			background:url(img/007.jpg);
+			background-size:100% 100%;
+		}
+		.box section:nth-of-type(8){
+			background:url(img/001.jpg);
+			background-size:100% 100%;
+		}
+	</style>
+</head>
+<body>
+	<section class="box">
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+	</section>
+	<script>
+		var body = document.querySelector('body');
+		var box = document.querySelector('.box');
+		var num = 0;
+		var iW = window.innerWidth;
+		var Num = box.querySelectorAll('section');
+		var len = Num.length;
+		
+		
+		swiper(box,'left',function(){
+			num--;
+			if(num == -len){
+				num = 0;
+				box.style.transition = 'none';
+				box.style.transform = 'translateX('+num*iW+'px)';
+				setTimeout(function(){
+					num = -1;
+					box.style.transition = '1s';
+					box.style.transform = 'translateX('+num*iW+'px)';
+				},20)
+			}
+			box.style.transform = 'translateX('+num*iW+'px)';
+		})
+		swiper(box,'right',function(){
+			num++;
+			if(num == 1){
+				num = -(len-1);
+				box.style.transition = 'none';
+				box.style.transform = 'translateX('+num*iW+'px)';
+				setTimeout(function(){
+					num = -len+2;
+					box.style.transition = '1s';
+					box.style.transform = 'translateX('+num*iW+'px)';
+				},20)
+			}else{
+				box.style.transition = '1s';
+				box.style.transform = 'translateX('+num*iW+'px)';
+			}
+		})
+	</script>
+</body>
+</html>

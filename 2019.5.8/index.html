@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.box{
+			width:100px;
+			height:100px;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div id="box"></div>
+	<div class="box"></div>
+	<script>
+		// var box = document.querySelector('.box');
+		var box = document.querySelectorAll('.box')[0];
+		// box.ontouchstart = function(){
+		// 	console.log('手指按下');
+		// }
+		// box.ontouchmove = function(){
+		// 	console.log('移动了');
+		// }
+		// box.ontouchend = function(){
+		// 	console.log('手指抬起了');
+		// }
+		
+		box.ontouchstart = function(ev){
+			// console.log(ev);
+			// console.log(ev.touches)
+			// console.log(ev.targetTouches);
+			var ev = ev.changedTouches[0];
+			var x = ev.pageX;
+			var y = ev.pageY;
+			console.log(x,y);
+		}
+		// console.log(box);
+	</script>
+</body>
+</html>
