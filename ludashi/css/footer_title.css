@@ -1,0 +1,22 @@
+@charset "utf-8";
+.footer_title {
+  width: 100%;
+  height: 50px;
+  background: #f3f6f6;
+  margin-top: 20px;
+}
+.footer_title > div {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+}
+.footer_title > div > a {
+  padding-right: 15px;
+  font-size: 12px;
+  color: #55616d;
+}
+.footer_title > div > a:hover {
+  color: #bbbae7;
+}

@@ -1,0 +1,160 @@
+@charset "utf-8";
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bannerbg.png) no-repeat center top;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap .mobile_up {
+  width: 1100px;
+  margin: 0 auto;
+}
+.wrap .mobile_up > div:nth-of-type(1) {
+  width: 1100px;
+  height: 574px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrap .mobile_up > div:nth-of-type(1) > h1 {
+  font-size: 60px;
+  font-weight: normal;
+  padding-top: 160px;
+  color: #fff;
+}
+.wrap .mobile_up > div:nth-of-type(1) > p:nth-of-type(1) {
+  font-size: 32px;
+  padding-top: 30px;
+  color: #bcc3d6;
+}
+.wrap .mobile_up > div:nth-of-type(1) > a {
+  display: block;
+  width: 428px;
+  height: 123px;
+  margin: 68px auto 0;
+  background: url(../img/banner_btn.png);
+  box-sizing: border-box;
+  padding: 16px 50px 0 0;
+}
+.wrap .mobile_up > div:nth-of-type(1) > a > h3 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: normal;
+}
+.wrap .mobile_up > div:nth-of-type(1) > a > p {
+  font-size: 12px;
+  color: #e1f3e7;
+  opacity: 0.7;
+}
+.wrap .mobile_up > div:nth-of-type(1) > a > P:nth-of-type(1) {
+  margin: 5px 0 3px;
+}
+.wrap .mobile_up > div:nth-of-type(1) > p:nth-of-type(2) {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+  padding-top: 10px;
+  text-indent: 305px;
+}
+.wrap .mobile_up > div:nth-of-type(1) > div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 60px;
+}
+.wrap .mobile_up > div:nth-of-type(2) {
+  width: 1100px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.wrap .mobile_up > div:nth-of-type(2) > div {
+  width: 333px;
+  height: 356px;
+}
+.wrap .mobile_up > div:nth-of-type(2) > div > h4 {
+  font-weight: normal;
+  font-size: 28px;
+  padding: 22px 0 32px;
+  color: #fff;
+}
+.wrap .mobile_up > div:nth-of-type(2) > div > p {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+}
+.wrap .mobile_content {
+  width: 100%;
+  height: 100%;
+  margin-top: 220px;
+}
+.wrap .mobile_content > p {
+  font-size: 60px;
+  color: #303030;
+  text-align: center;
+}
+.wrap .mobile_content > div {
+  width: 1200px;
+  margin: 126px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.wrap .mobile_content > div > div {
+  width: 265px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+}
+.wrap .mobile_content > div > div > span {
+  position: absolute;
+  right: 45px;
+  top: 8px;
+}
+.wrap .mobile_content > div > div > p {
+  font-size: 28px;
+  color: #666;
+  margin-top: 26px;
+}
+.wrap .mobile_bottom {
+  width: 100%;
+  background: #f3f3f3;
+  padding: 98px 0 82px;
+}
+.wrap .mobile_bottom > div {
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(1) {
+  width: 360px;
+  height: 400px;
+  margin-left: 50px;
+  background: url(../img/update_icon.png) no-repeat center;
+  float: left;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(2) {
+  float: left;
+  width: 554px;
+  margin-left: 106px;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(2) > h5 {
+  font-size: 40px;
+  color: #303030;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(2) > p {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(2) > p:last-of-type {
+  margin-bottom: 32px;
+}
+.wrap .mobile_bottom > div > div:nth-of-type(2) > a {
+  font-size: 16px;
+  color: #303030;
+  font-weight: bold;
+}
