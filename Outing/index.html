@@ -30,7 +30,7 @@
 				<img src="img/logo.png">
 			</h1>
 		</section>
-		<section class="show">
+		<section class="second show">
 			<section class="banner">
 				<div class="swiper-container" id="swiper_banner">
 					<div class="swiper-wrapper">
@@ -68,33 +68,33 @@
 				<div class="list">
 					<b>综合印象</b>
 					<nav>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
 					</nav>
 					<input type="hidden">
 				</div>
 				<div class="list">
 					<b>服务指数</b>
 					<nav>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
 					</nav>
 					<input type="hidden">
 				</div>
 				<div class="list">
 					<b>消费指数</b>
 					<nav>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
 					</nav>
 					<input type="hidden">
 				</div>
@@ -142,30 +142,62 @@
 			</section>
 			<section class="clue">
 				<h3>请上传旅游投诉以及突发事件线索</h3>
-				<span>导入视频</span>
-				<span>上传照片</span>
+				<label>
+					<input type="file">
+					<span>导入视频</span>
+				</label>
+				<label>
+					<input type="file">
+					<span>上传照片</span>
+				</label>
+			</section>
+			<p class="error">请选择文件</p>
+			<section class="submit">
+				<span id="btn">提交</span>
 			</section>
 		</section>
 		<section class="fifth">
 			<img src="img/formBg.png"/>
 			<section class="videotag">
 				<h3>给视频添加标签</h3>
-				<span>点赞</span>
-				<span>弱爆了</span>
-				<span>点赞</span>
-				<span>点赞</span>
-				<span>点赞</span>
-				<span>点赞</span>
-				<span>弱爆了</span>
-				<span>点赞</span>
-				<span>点赞</span>
-				<span>点赞</span>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>点赞</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>点赞</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>点赞</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>弱爆了</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>点赞</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>弱爆了</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>点赞</span>
+				</label>
+				<label>
+					<input type="radio" name="tag1"/>
+					<span>弱爆了</span>
+				</label>
 			</section>
 			<section class="evaluate">
-				<input type="text" placeholder="(填选:说点什么呢! (可选))">
+				<textarea placeholder="(填选:说点什么呢! (可选))"></textarea>
 				<input type="text" placeholder="(填选:说点什么呢! (可选))">
 			</section>
-			<p class="error">请给景区评分</p>
+			<p class="error">请给视频添加标签</p>
 			<section class="submit">
 				<span id="btn">提交</span>
 			</section>
@@ -173,13 +205,15 @@
 		<section class="sixth">
 			<section class="success">
 				<img src="img/tree.jpg">
-				<img src="img/tranks2.png"/>
+				<section>
+					<img src="img/tranks2.png"/>
+				</section>
 				<span></span>
 				<span></span>
 				<span></span>
 			</section>
 			<section class="submit">
-				<span id="btn">重新评价</span>
+				<span id="btn" class="active">重新评价</span>
 			</section>
 		</section>
 	</section>
