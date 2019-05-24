@@ -1,0 +1,25 @@
+<top-nav title="榜单《电影《豆瓣"></top-nav>
+<view class="wrap">
+  <view class="banner">
+    <swiper indicator-dots='{{true}}' circular='{{true}}'>
+      <block wx:for="{{imgUrls}}" wx:key="001">
+        <swiper-item>
+          <image src="{{item.images.large}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='content'>
+    <view class='title'>正在上映的电影-{{city}}</view>
+    <view class="shownow">
+      <swiper circular='{{true}}' display-multiple-items='{{3}}'>
+      <block wx:for="{{newmovie}}" wx:key="002">
+        <swiper-item catchtap="jump" data-id="{{item.id}}">
+          <image src="{{item.images.large}}" data-id="{{item.id}}"/>
+          <view data-id="{{item.id}}">{{item.title}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+    </view>
+  </view>
+</view>

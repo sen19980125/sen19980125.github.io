@@ -1,0 +1,50 @@
+.topnav{
+  position:fixed;
+  top:0;
+  left:0;
+  width:750rpx;
+  height:150rpx;
+  background:#40586d;
+}
+.topnav text{
+  position:absolute;
+  top:78rpx;
+  left:16rpx;
+  font-size:43rpx;
+  color:#fff;
+}
+.title{
+   width:100%;
+  font-size:32rpx;
+  color:#fff;
+  text-align:center;
+  margin-top:80rpx;
+}
+.content{
+  width:750rpx;
+  height:1210rpx;
+  margin-top:150rpx;
+}
+.cont_info{
+  width:750rpx;
+  height:1210rpx;
+  background:rgba(255,255,255,0.85);
+  padding:65rpx 100rpx 0;
+  box-sizing:border-box;
+}
+.cont_info image{
+  width:100%;
+  height:822rpx;
+}
+.info_title{
+  height:92rpx;
+  font-size:38rpx;
+  line-height:38rpx;
+  text-align:center;
+}
+.cont_info text{
+  display:block;
+  font-size:26rpx;
+  color:#282828;
+  margin-bottom:28rpx;
+}

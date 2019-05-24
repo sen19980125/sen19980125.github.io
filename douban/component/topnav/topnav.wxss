@@ -1,0 +1,17 @@
+.nav{
+  width:750rpx;
+  height:150rpx;
+  position:fixed;
+  top:0;
+  left:0;
+  background:#40586d;
+}
+.nav text{
+  position:absolute;
+  top:80rpx;
+  left:0;
+  width:456rpx;
+  font-size:32rpx;
+  color:#fff;
+  text-align:right;
+}

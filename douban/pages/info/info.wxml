@@ -1,0 +1,13 @@
+<view class="topnav">
+  <text catchtap="info_jump">＜</text>
+  <view class="title">{{info.title}}</view>
+</view>
+<view class="content" style="background:url({{info.image}});background-size:100% 100%;">
+  <view class="cont_info">
+    <image src="{{info.image}}"></image>
+    <view class="info_title">{{info.alt_title}}</view>
+    <text>评分：{{info.rating.average?info.rating.average:'暂无评分'}}</text>
+    <text>导演：{{info.attrs.director[0]}}</text>
+    <text>主演：{{info.attrs.writer[0]}}</text>
+  </view>
+</view>

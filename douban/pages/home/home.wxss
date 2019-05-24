@@ -1,0 +1,46 @@
+.wrap{
+  width:750rpx;
+}
+.banner{
+  width:100%;
+  height:490rpx;
+}
+.banner swiper,.banner swiper swiper-item,image{
+  width:100%;
+  height:490rpx;
+}
+.content{
+  width:750rpx;
+}
+.title{
+  height:100rpx;
+  font-size:20rpx;
+  color:#282828;
+  line-height:120rpx;
+}
+.shownow{
+  width:100%;
+  height:277rpx;
+}
+.shownow swiper{
+  width:100%;
+  height:277rpx;
+}
+.shownow swiper-item{
+  width:200rpx;
+  height:100%;
+  padding-right:20rpx;
+  box-sizing:border-box;
+  font-size:0;
+}
+.shownow swiper-item image{
+  width:100%;
+  height:252rpx;
+}
+.shownow swiper-item view{
+  width:100%;
+  font-size:20rpx;
+  color:#282828;
+  line-height:22rpx;
+  text-align:center;
+}

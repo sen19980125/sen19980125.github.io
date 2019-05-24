@@ -1,0 +1,24 @@
+.wrap{
+  width:750rpx;
+  height:1197rpx;
+  position:relative;
+}
+.wrap swiper,.wrap swiper swiper-item,image{
+  width:750rpx;
+  height:1197rpx;
+}
+.btn{
+  position:absolute;
+  left:220rpx;
+  bottom:200rpx;
+  width:306rpx;
+  height:103rpx;
+  background:rgba(63, 73, 83, 0.3);
+  border-radius:58rpx;
+  font-size:40rpx;
+  color:#fff;
+  line-height:103rpx;
+  text-align:center;
+  border:1px solid #536471;
+  outline:none;
+}
