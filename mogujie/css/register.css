@@ -1,0 +1,248 @@
+@charset 'utf-8';
+.wrap {
+  width: 100%;
+}
+.wrap > .header {
+  width: 1014px;
+  height: 104px;
+  margin-left: 362px;
+}
+.wrap > .header > div:nth-of-type(1) {
+  width: 129px;
+  height: 100%;
+  float: left;
+}
+.wrap > .header > div:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+}
+.wrap > .header > div:nth-of-type(2) {
+  width: 885px;
+  height: 100%;
+  float: left;
+  padding: 34px 0 0 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .header > div:nth-of-type(2) > p {
+  width: 864px;
+  height: 30px;
+  border: 1px solid #ffc0cc;
+  background: #ffefef;
+  font-size: 12px;
+  color: #333;
+  line-height: 30px;
+  padding-left: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner {
+  width: 100%;
+  height: 600px;
+  background: url(../img/signin_banner.png) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -ms-background-size: 100%;
+  background-size: 100%;
+  position: relative;
+}
+.wrap > .banner > div {
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  top: 80px;
+  left: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  padding-left: 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 55px;
+  position: relative;
+  padding-left: 39px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(1) > a {
+  float: left;
+  width: 120px;
+  height: 53px;
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  padding-top: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(1) > a:nth-of-type(1) {
+  margin-right: 65px;
+}
+.wrap > .banner > div > div:nth-of-type(1) > a:nth-of-type(3) {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  background: url(../img/signin_icon04.png) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -ms-background-size: 100%;
+  background-size: 100%;
+}
+.wrap > .banner > div .active {
+  color: #ff5777 !important;
+  border-bottom: 2px solid #ff5777;
+}
+.wrap > .banner > div > div:nth-of-type(2) {
+  width: 100%;
+  border-top: 1px solid #d3c2c0;
+}
+.wrap > .banner > div > div:nth-of-type(2) > p {
+  height: 43px;
+  padding-left: 38px;
+  margin-top: 16px;
+}
+.wrap > .banner > div > div:nth-of-type(2) > p > input {
+  float: left;
+  width: 314px;
+  height: 40px;
+  outline: none;
+  padding-left: 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(2) > p > a {
+  float: left;
+  width: 314px;
+  height: 40px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  background: #fe5570;
+}
+.wrap > .banner > div > div:nth-of-type(2) > span {
+  float: left;
+  font-size: 15px;
+  color: red;
+  margin-left: 38px;
+  display: none;
+}
+.wrap > .banner > div > div:nth-of-type(3) {
+  display: none;
+  width: 100%;
+  border-top: 1px solid #d3c2c0;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(1) {
+  height: 43px;
+  padding-left: 38px;
+  margin-top: 16px;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(1) > input {
+  float: left;
+  width: 314px;
+  height: 40px;
+  outline: none;
+  padding-left: 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(2) {
+  height: 43px;
+  padding-left: 38px;
+  margin-top: 16px;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(2) > a {
+  float: left;
+  width: 110px;
+  height: 40px;
+  color: #fff;
+  background: #ff5777;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(2) > input {
+  float: left;
+  width: 194px;
+  height: 40px;
+  outline: none;
+  padding-left: 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(3) {
+  height: 43px;
+  padding-left: 38px;
+  margin-top: 16px;
+}
+.wrap > .banner > div > div:nth-of-type(3) > p:nth-of-type(3) > a {
+  float: left;
+  width: 314px;
+  height: 40px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  background: #fe5570;
+}
+.wrap > .banner > div > div:nth-of-type(4) {
+  width: 100%;
+  height: 68px;
+  padding-top: 27px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p {
+  height: 18px;
+  padding-left: 38px;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p > i {
+  float: left;
+  width: 18px;
+  height: 18px;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p > i:nth-of-type(1) {
+  background: url(../img/qq.png) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -ms-background-size: 100%;
+  background-size: 100%;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p > i:nth-of-type(2) {
+  background: url(../img/weixin.png) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -ms-background-size: 100%;
+  background-size: 100%;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p > span {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  line-height: 18px;
+}
+.wrap > .banner > div > div:nth-of-type(4) > p > span:nth-of-type(1) {
+  margin-right: 50px;
+}

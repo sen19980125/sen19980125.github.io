@@ -1,0 +1,379 @@
+@charset 'utf-8';
+
+.border-radius(@radius){
+	-moz-border-radius:@radius;
+	-webkit-border-radius: @radius;
+	-ms-border-radius:@radius;
+	border-radius: @radius;
+}
+.background-size(@size){
+	-moz-background-size:@size;
+	-webkit-background-size:@size;
+	-ms-background-size:@size;
+	background-size:@size;
+}
+
+.box-sizing(@sizing){
+	-moz-box-sizing: @sizing;
+	-webkit-box-sizing: @sizing;
+	-ms-box-sizing: @sizing;
+	box-sizing: @sizing;
+}
+.content{
+	width:1730px;
+	margin:0 auto;
+	overflow: hidden;
+	.content_left{
+		width:490px;
+		float: left;
+		&>ul{
+			width:100%;
+			overflow: hidden;
+			&>li{
+				width:245px;
+				float: left;
+				&>div{
+					width:220px;
+					height:auto;
+					.border-radius(10px);
+					margin-bottom: 24px;
+					position: relative;
+					overflow: hidden;
+					&>img{
+						width:100%;
+						.border-radius(10px);
+						float: left;
+					}
+					&>p{
+						padding:12px 0 0 10px;
+						float: left;
+						&>a{
+							float: left;
+							height:21px;
+							padding: 0 5px;
+							background:#f1f1f1;
+							line-height: 21px;
+							color:#333;
+							.border-radius(5px);
+							margin:2px;
+							&>span{
+								float: left;
+								width:15px;
+								height:15px;
+								margin: 3px 7px 0 0;
+								background: red;
+								.background-size(100%)!important;
+							}
+						}
+					}
+					&>.mask{
+						position: absolute;
+						width:100%;
+						height:100%;
+						top:0;
+						left:0;
+						background:rgba(0,0,0,0.3);
+						.box-sizing(border-box);
+						display: none;
+						&>span{
+							position: absolute;
+							width:42px;
+							height:42px;
+							.border-radius(50%);
+						}
+						&>span:nth-of-type(1){
+							top:12px;
+							right:12px;
+							background:#fff url(../img/mask_icon01.png)no-repeat center center;
+							&>b{
+								position: absolute;
+								width:23px;
+								height:16px;
+								background:#fd5574;
+								.border-radius(10px);
+								font-size:12px;
+								font-weight: normal;
+								padding:0 2px;
+								text-align: center;
+								top:-4px;
+								right:-4px;
+								color: #fff;
+								line-height:16px;
+							}
+						}
+						&>span:nth-of-type(2){
+							top:62px;
+							right:12px;
+							background:#fff url(../img/mask_icon02.png)no-repeat center center;
+						}
+						&>p{
+							position: absolute;
+							font-size:13px;
+							color:#fff;
+							left:14px;
+							bottom: 14px;
+							width: 194px;
+							height:58px;
+							overflow: hidden;
+							text-overflow: ellipsis;
+						}
+					}
+				}
+			}
+		}
+	}
+	.content_center{
+		width:750px;
+		float: left;
+		.imgs{
+			width:100%;
+			height:751px;
+			&>img{
+				width:100%;
+				height:100%;
+			}
+		}
+		&>.center_icon{
+			width:100%;
+			height:428px;
+			background:url(../img/content_gif.gif)no-repeat;
+			.background-size(100%);
+			margin-top:25px;
+			&>ul{
+				width:100%;
+				padding:53px 16px 0 10px;
+				overflow: hidden;
+				.box-sizing(border-box);
+				&>li{
+					width:120px;
+					height:108px;
+					float: left;
+					&>a>span{
+						display: inline-block;
+						width:100%;
+						height:79px;
+						.background-size(100%)!important;
+					}
+					&>a>p{
+						height:30px;
+						font-size:13px;
+						text-align: center;
+						color:#333333;
+					}
+				}
+			}
+			&>div{
+				width:100%;
+				height:160px;
+				padding:31px 18px 45px;
+				.box-sizing(border-box);
+				&>a{
+					float: left;
+					width:120px;
+					height:35px;
+					.border-radius(15px);
+					font-size:13px;
+					text-align: center;
+					line-height:35px;
+					margin:0 22px 14px 0;
+				}
+			}
+		}
+		&>ul{
+			width:100%;
+			overflow: hidden;
+			&>li{
+				width:245px;
+				float: left;
+				&>div{
+					width:220px;
+					height:auto;
+					.border-radius(10px);
+					margin-bottom: 24px;
+					position: relative;
+					overflow: hidden;
+					&>img{
+						width:100%;
+						.border-radius(10px);
+						float: left;
+					}
+					&>p{
+						padding:12px 0 0 10px;
+						float: left;
+						&>a{
+							float: left;
+							height:21px;
+							padding: 0 5px;
+							background:#f1f1f1;
+							line-height: 21px;
+							color:#333;
+							.border-radius(5px);
+							margin:2px;
+							&>span{
+								float: left;
+								width:15px;
+								height:15px;
+								margin: 3px 7px 0 0;
+								background: red;
+								.background-size(100%)!important;
+							}
+						}
+					}
+					&>.cont_mask{
+						position: absolute;
+						width:100%;
+						height:100%;
+						top:0;
+						left:0;
+						background:rgba(0,0,0,0.3);
+						.box-sizing(border-box);
+						display: none;
+						&>span{
+							position: absolute;
+							width:42px;
+							height:42px;
+							.border-radius(50%);
+						}
+						&>span:nth-of-type(1){
+							top:12px;
+							right:12px;
+							background:#fff url(../img/mask_icon01.png)no-repeat center center;
+							&>b{
+								position: absolute;
+								width:23px;
+								height:16px;
+								background:#fd5574;
+								.border-radius(10px);
+								font-size:12px;
+								font-weight: normal;
+								padding:0 2px;
+								text-align: center;
+								top:-4px;
+								right:-4px;
+								color: #fff;
+								line-height:16px;
+							}
+						}
+						&>span:nth-of-type(2){
+							top:62px;
+							right:12px;
+							background:#fff url(../img/mask_icon02.png)no-repeat center center;
+						}
+						&>p{
+							position: absolute;
+							font-size:13px;
+							color:#fff;
+							left:14px;
+							bottom: 14px;
+							width: 194px;
+							height:58px;
+							overflow: hidden;
+							text-overflow: ellipsis;
+						}
+					}
+				}
+			}
+		}
+	}
+	.content_right{
+		width:490px;
+		float: left;
+		&>ul{
+			width:100%;
+			overflow: hidden;
+			&>li{
+				width:245px;
+				float:left;
+				.box-sizing(border-box);
+				&>div{
+					width:220px;
+					height:auto;
+					.border-radius(10px);
+					margin-bottom: 24px;
+					position: relative;
+					overflow: hidden;
+					margin-left:25px;
+					&>img{
+						width:100%;
+						.border-radius(10px);
+						float: left;
+					}
+					&>p{
+						padding:12px 0 0 10px;
+						float: left;
+						&>a{
+							float: left;
+							height:21px;
+							padding: 0 5px;
+							background:#f1f1f1;
+							line-height: 21px;
+							color:#333;
+							.border-radius(5px);
+							margin:2px;
+							&>span{
+								float: left;
+								width:15px;
+								height:15px;
+								margin: 3px 7px 0 0;
+								background: red;
+								.background-size(100%)!important;
+							}
+						}
+					}
+					&>.right_mask{
+						position: absolute;
+						width:100%;
+						height:100%;
+						top:0;
+						left:0;
+						background:rgba(0,0,0,0.3);
+						.box-sizing(border-box);
+						display: none;
+						&>span{
+							position: absolute;
+							width:42px;
+							height:42px;
+							.border-radius(50%);
+						}
+						&>span:nth-of-type(1){
+							top:12px;
+							right:12px;
+							background:#fff url(../img/mask_icon01.png)no-repeat center center;
+							&>b{
+								position: absolute;
+								width:23px;
+								height:16px;
+								background:#fd5574;
+								.border-radius(10px);
+								font-size:12px;
+								font-weight: normal;
+								padding:0 2px;
+								text-align: center;
+								top:-4px;
+								right:-4px;
+								color: #fff;
+								line-height:16px;
+							}
+						}
+						&>span:nth-of-type(2){
+							top:62px;
+							right:12px;
+							background:#fff url(../img/mask_icon02.png)no-repeat center center;
+						}
+						&>p{
+							position: absolute;
+							font-size:13px;
+							color:#fff;
+							left:14px;
+							bottom: 14px;
+							width: 194px;
+							height:58px;
+							overflow: hidden;
+							text-overflow: ellipsis;
+						}
+					}
+				}
+			}
+		}
+	}
+}
