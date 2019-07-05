@@ -1,0 +1,33 @@
+var data = [{
+	name:'103系列',
+	info:'个性化面板，时尚，稳重防辐射个性化面板，时尚，稳重防辐射',
+	img:'img/guess01.jpg',
+	price:'¥5499.00',
+	id:"001",
+	num:1,
+	isDelete:false
+},{
+	name:'狙击手',
+	info:'全新压克面板，前置式直插USB全新压克面板',
+	img:'img/guess02.jpg',
+	price:'¥7499.00',
+	id:'002',
+	num:1,
+	isDelete:false
+},{
+	name:'逆袭',
+	info:'水冷机箱，五金分体式结构，五金分体式结构',
+	img:'img/guess03.jpg',
+	price:'¥7999.00',
+	id:'003',
+	num:1,
+	isDelete:false
+},{
+	name:'机械师',
+	info:'面板设计菱角突出，色彩搭配完美面板设计菱角突出',
+	img:'img/guess04.jpg',
+	price:'¥9499.00',
+	id:'004',
+	num:1,
+	isDelete:false
+}]

@@ -1,0 +1,147 @@
+@charset 'utf-8';
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/login_bj.png);
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrap .search {
+  background: none;
+}
+.wrap .search .search_icon span:nth-of-type(1) {
+  background: url(../img/details_icon01.png) no-repeat;
+}
+.wrap .search .search_icon .search_box p {
+  font-size: 32px;
+  left: 136px;
+  top: 6px;
+}
+.wrap .login {
+  width: 100%;
+  margin-top: 250px;
+  padding: 0 150px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .login div {
+  height: 90px;
+  line-height: 90px;
+}
+.wrap .login div span {
+  float: left;
+  font-size: 29px;
+  color: #fff;
+}
+.wrap .login div input {
+  float: left;
+  width: 330px;
+  height: 32px;
+  background: none;
+  margin-top: 28px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #c3c3c3;
+  font-size: 22px;
+  color: #c3c3c3;
+  outline: none;
+}
+.wrap .login div input::-webkit-placeholder {
+  color: #c3c3c3;
+  font-size: 22px;
+}
+.wrap .login div input::placeholder {
+  color: #c3c3c3;
+  font-size: 22px;
+}
+.wrap .login div:nth-of-type(3) input {
+  width: 150px;
+}
+.wrap .login div:nth-of-type(3) p {
+  float: left;
+  width: 100px;
+  height: 32px;
+  background: #bfbfbf;
+  line-height: 32px;
+  margin: 28px 10px 0;
+}
+.wrap .login div:nth-of-type(3) p i {
+  font-size: 21px;
+  margin: 0 3px;
+}
+.wrap .login div:nth-of-type(3) p i:nth-of-type(1) {
+  color: #00a0e9;
+}
+.wrap .login div:nth-of-type(3) p i:nth-of-type(2) {
+  color: #f39800;
+}
+.wrap .login div:nth-of-type(3) p i:nth-of-type(3) {
+  color: #00ffff;
+}
+.wrap .login div:nth-of-type(3) p i:nth-of-type(4) {
+  color: #0000ff;
+}
+.wrap .login div:nth-of-type(3) b {
+  font-weight: normal;
+  font-size: 19px;
+  color: #c3c3c3;
+}
+.wrap .login .agreement {
+  height: 27px;
+  line-height: 27px;
+}
+.wrap .login .agreement label {
+  float: left;
+  width: 30px;
+  height: 27px;
+  margin-left: 90px;
+}
+.wrap .login .agreement label input {
+  display: none;
+}
+.wrap .login .agreement label input:checked + span {
+  background: url(../img/reg_yes.png);
+}
+.wrap .login .agreement label span {
+  float: left;
+  width: 30px;
+  height: 27px;
+  background: url(../img/reg_no.png);
+}
+.wrap .login .agreement i {
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+  clear: both;
+  margin-left: 10px;
+}
+.wrap .login_btn {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 78px;
+}
+.wrap .login_btn .btn {
+  width: 327px;
+  height: 100%;
+  background: #ccc;
+  font-size: 27px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 23px;
+}
+.wrap .login_btn .show {
+  background: #f39800;
+}
+.wrap .success {
+  bottom: 540px;
+  color: #fff;
+}

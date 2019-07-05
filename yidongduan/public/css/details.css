@@ -1,0 +1,256 @@
+@charset 'utf-8';
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+.wrap {
+  width: 100%;
+}
+.wrap .search .search_icon span:nth-of-type(1) {
+  background: url(../img/details_icon01.png) no-repeat;
+}
+.wrap .search .search_icon span:nth-of-type(2) {
+  background: url(../img/details_icon02.png) no-repeat;
+}
+.wrap .search .search_icon div p {
+  left: 130px;
+  top: 4px;
+  font-size: 35px;
+}
+.wrap .dy_search .search .search_icon span:nth-of-type(1) {
+  background: url(../img/details_icon01.png) no-repeat;
+}
+.wrap .dy_search .search .search_icon span:nth-of-type(2) {
+  background: url(../img/details_icon02.png) no-repeat;
+}
+.wrap .dy_search .search .search_icon div p {
+  left: 130px;
+  top: 4px;
+  font-size: 35px;
+}
+.wrap .banner {
+  width: 100%;
+  height: 697px;
+}
+.wrap .banner .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrap .content {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.wrap .content .information {
+  width: 100%;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .information .title {
+  font-weight: normal;
+  width: 100%;
+  font-size: 30px;
+  color: #282828;
+}
+.wrap .content .information p:nth-of-type(1) {
+  height: 42px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #989898;
+}
+.wrap .content .information p:nth-of-type(2) {
+  height: 107px;
+  line-height: 107px;
+  font-size: 26px;
+  color: #ff0000;
+}
+.wrap .content .information p:nth-of-type(3) {
+  overflow: hidden;
+}
+.wrap .content .information p:nth-of-type(3) span {
+  float: left;
+  font-size: 25px;
+  color: #656565;
+}
+.wrap .content .information p:nth-of-type(3) span:nth-of-type(1) {
+  margin-right: 437px;
+}
+.wrap .content .information div:nth-of-type(1) {
+  width: 100%;
+  height: 75px;
+}
+.wrap .content .information div:nth-of-type(1) i {
+  float: left;
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+  margin-top: 19px;
+  background: url(../img/info_icon.png) no-repeat;
+}
+.wrap .content .information div:nth-of-type(1) span {
+  float: left;
+  font-size: 23px;
+  color: #656565;
+  margin-top: 20px;
+}
+.wrap .content .information div:nth-of-type(1) span:nth-of-type(1) {
+  margin-right: 266px;
+}
+.wrap .content .information p:nth-of-type(4) {
+  height: 69px;
+  line-height: 69px;
+}
+.wrap .content .information p:nth-of-type(4) span:nth-of-type(1) {
+  font-size: 28px;
+  color: #282828;
+  margin-right: 417px;
+}
+.wrap .content .information p:nth-of-type(4) span:nth-of-type(2) {
+  font-size: 19px;
+  color: #282828;
+}
+.wrap .content .information p:nth-of-type(4) i {
+  font-style: normal;
+  font-size: 17px;
+  color: #f39800;
+}
+.wrap .content .information p:nth-of-type(5) {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 77px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .information p:nth-of-type(5) span {
+  float: left;
+  width: 140px;
+  height: 30px;
+  border-radius: 12px;
+  background: #e7b92c;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  color: #282828;
+  margin: 0 70px 20px 0;
+}
+.wrap .content .information p:nth-of-type(6) {
+  height: 90px;
+}
+.wrap .content .information p:nth-of-type(6) span {
+  float: left;
+}
+.wrap .content .information p:nth-of-type(6) span:nth-of-type(1) {
+  width: 88px;
+  height: 88px;
+  background: url(../img/comment_icon01.png);
+}
+.wrap .content .information p:nth-of-type(6) span:nth-of-type(2) {
+  width: 140px;
+  height: 19px;
+  background: url(../img/comment_icon02.png);
+  margin-top: 35px;
+}
+.wrap .content .information p:nth-of-type(6) i {
+  float: left;
+  font-size: 26px;
+  color: #282828;
+  font-style: normal;
+  margin: 26px 409px 0 21px;
+}
+.wrap .content .information p:nth-of-type(7) {
+  height: 90px;
+  line-height: 30px;
+  font-size: 22px;
+  color: #282828;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .information div:nth-of-type(2) {
+  width: 100%;
+  overflow: hidden;
+}
+.wrap .content .information div:nth-of-type(2) img {
+  float: left;
+  margin-right: 10px;
+}
+.wrap .content .information p:nth-of-type(8) {
+  height: 130px;
+}
+.wrap .content .information p:nth-of-type(8) span {
+  float: left;
+  width: 300px;
+  height: 50px;
+  background: #f39800;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  margin: 40px 0 0 215px;
+}
+.wrap .content .information p:nth-of-type(9) {
+  font-size: 31px;
+  color: #282828;
+  text-align: center;
+}
+.wrap .content .pictures {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.wrap .content .pictures img {
+  float: left;
+}
+.wrap .footer {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding-top: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .footer div {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.wrap .footer div span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(../img/footer_icon01.png) no-repeat;
+  margin-left: 75px;
+}
+.wrap .footer div p {
+  clear: both;
+  height: 38px;
+  line-height: 38px;
+  font-size: 19px;
+  color: #282828;
+  text-align: center;
+}
+.wrap .footer div:nth-of-type(2) span {
+  background: url(../img/footer_icon02.png) no-repeat;
+}
+.wrap .footer div:nth-of-type(3) span {
+  background: url(../img/footer_icon03.png) no-repeat;
+}
+.wrap .footer div:nth-of-type(4) b {
+  float: right;
+  width: 160px;
+  height: 50px;
+  font-size: 26px;
+  color: #fff;
+  background: #f39800;
+  text-align: center;
+  line-height: 50px;
+  font-weight: normal;
+  border-radius: 22px;
+  margin: 15px 20px 0 0;
+}

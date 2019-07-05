@@ -1,0 +1,182 @@
+@charset 'utf-8';
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+.wrap {
+  width: 100%;
+}
+.wrap .search .search_icon span:nth-of-type(1) {
+  background: url(../img/details_icon01.png) no-repeat;
+}
+.wrap .search .search_icon .search_box p {
+  font-size: 33px;
+  left: 150px;
+}
+.wrap .payment {
+  width: 100%;
+}
+.wrap .payment .price {
+  width: 100%;
+  height: 360px;
+  padding: 100px 0 0 137px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .payment .price div {
+  width: 479px;
+  height: 110px;
+}
+.wrap .payment .price div span {
+  float: left;
+  width: 63px;
+  height: 63px;
+  background: url(../img/info_icon.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin: 24px 22px 0 0;
+}
+.wrap .payment .price div b {
+  float: left;
+  font-size: 29px;
+  color: #282828;
+  font-weight: normal;
+}
+.wrap .payment .price div b:nth-of-type(1) {
+  margin-top: 20px;
+}
+.wrap .payment .price p {
+  font-size: 26px;
+  color: #656565;
+  line-height: 26px;
+  text-indent: 42px;
+}
+.wrap .payment .price p:nth-of-type(1) {
+  height: 42px;
+  line-height: 42px;
+}
+.wrap .payment .paymentmethod {
+  width: 100%;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .payment .paymentmethod h3 {
+  height: 112px;
+  line-height: 112px;
+  font-size: 32px;
+  color: #282828;
+  font-weight: normal;
+}
+.wrap .payment .paymentmethod div {
+  height: 130px;
+}
+.wrap .payment .paymentmethod div span {
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin: 40px 80px 0 0;
+}
+.wrap .payment .paymentmethod div b {
+  float: left;
+  font-size: 30px;
+  font-weight: normal;
+  color: #282828;
+  line-height: 130px;
+}
+.wrap .payment .paymentmethod div label {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #434343;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 50px 20px 0 0;
+}
+.wrap .payment .paymentmethod div label input {
+  display: none;
+}
+.wrap .payment .paymentmethod div label i {
+  float: left;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.wrap .payment .paymentmethod div label input:checked + i {
+  background: url(../img/cashier_icon04.png);
+}
+.wrap .payment .paymentmethod div:nth-of-type(1) span {
+  width: 74px;
+  height: 47px;
+  margin: 40px 50px 0 0;
+  background: url(../img/cashier_icon01.png);
+}
+.wrap .payment .paymentmethod div:nth-of-type(2) span {
+  background: url(../img/cashier_icon02.png);
+}
+.wrap .payment .paymentmethod div:nth-of-type(3) span {
+  background: url(../img/cashier_icon03.png);
+}
+.wrap .payment_btn {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  text-align: center;
+}
+.wrap .payment_btn .btn {
+  width: 327px;
+  height: 50px;
+  border: none;
+  background: #ccc;
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  line-height: 50px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  outline: none;
+}
+.wrap .payment_btn .show {
+  background: #00a0e9;
+}
+.wrap .payment_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.wrap .payment_mask div {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.wrap .payment_mask div p {
+  font-size: 30px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+.wrap .payment_mask div button {
+  width: 327px;
+  height: 50px;
+  border: none;
+  background: #00a0e9;
+  color: #fff;
+  font-size: 26px;
+  line-height: 50px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  outline: none;
+  margin-top: 20px;
+}

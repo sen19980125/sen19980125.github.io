@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=750,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+	<meta name='renderer' content="webkit|ie-comp|ie-stand">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/PurchasePage.css">
+	<link rel="stylesheet" href="css/public.css">
+	<script src='js/storage.js'></script>
+	<script src='js/vue.js'></script>
+	<title></title>
+</head>
+<body>
+	<div class="wrap" id='app'>
+		<div class="search">
+			<div class="search_icon">
+				<span id="back" @touchstart="back"></span>
+				<div class="search_box">
+					<p>填写订单</p>
+				</div>
+			</div>
+		</div>
+		<div class="personalinfo">
+			<p>
+				<span>江小白</span>
+				<span>137****8866</span>
+			</p>
+			<p>
+				<span>地址：</span>
+				<span>广东省广州市白云区永泰镇泰兴路4号</span>
+			</p>
+			<i></i>
+		</div>
+		<div class="commodity_info">
+			<div class="baby_info" v-for="item in json">
+				<div>
+					<img :src="item.img"/>
+				</div>
+				<div>
+					<h3>{{item.name}}</h3>
+					<p>{{item.info}}</p>
+					<p>
+						<b>购买数量：</b>
+						<span>＞</span>
+						<span class="total">{{item.num}}</span>
+						<span>＜</span>
+					</p>
+					<p><b>选择的套餐：</b><span>官方标配</span></p>
+					<p>
+						<!-- <span>价格：¥&nbsp;</span> -->
+						<span>{{item.price}}</span>
+					</p>
+				</div>
+			</div>
+			<div class="other_info">
+				<p>
+					<span>配送方式</span>
+					<span>普通快递</span>
+				</p>
+				<p>
+					<span>发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;票</span>
+					<span>个人<i>电子</i>发票</span>
+				</p>
+				<p>
+					<span>优惠券</span>
+					<i></i>
+					<span>无可用</span>
+				</p>
+				<p>
+					<span>商品金额</span>
+					<span class="UnitPrice">{{json[0].price}}</span>
+				</p>
+				<p>
+					<span>运费&nbsp;(总重：15kg)</span>
+					<span>包邮</span>
+				</p>
+			</div>
+		</div>
+		<div class="footer">
+			<span class="TotalPrice"></span>
+			<span @touchstart="submission">订单提交</span>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script src='js/PurchasePage.js'></script>
+</body>
+</html>

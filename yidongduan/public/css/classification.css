@@ -1,0 +1,85 @@
+@charset 'utf-8';
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+.wrap {
+  width: 100%;
+}
+.wrap .search .search_icon span:nth-of-type(1) {
+  background: url(../img/details_icon01.png) no-repeat;
+}
+.wrap .content {
+  width: 100%;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+.wrap .content .product {
+  width: 206px;
+  float: left;
+  padding: 20px 34px 0 22px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .product .show {
+  background: #00a0e9;
+  color: #fff;
+}
+.wrap .content .product li {
+  width: 150px;
+  height: 50px;
+  font-size: 28px;
+  color: #282828;
+  text-align: center;
+  line-height: 50px;
+  -webkit-border-radius: 23px;
+  border-radius: 23px;
+  margin: 35px 0;
+}
+.wrap .content .introduce {
+  width: 540px;
+  float: left;
+  padding: 20px 20px 0 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .introduce .recommend {
+  width: 100%;
+}
+.wrap .content .introduce .recommend h3 {
+  height: 70px;
+  font-size: 30px;
+  color: #282828;
+  line-height: 70px;
+  font-weight: normal;
+}
+.wrap .content .introduce .recommend ul {
+  width: 100%;
+  overflow: hidden;
+}
+.wrap .content .introduce .recommend ul li {
+  width: 260px;
+  height: 200px;
+  float: left;
+}
+.wrap .content .introduce .recommend ul li div {
+  width: 250px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap .content .introduce .recommend ul li div img {
+  width: 88px;
+  height: 130px;
+  float: left;
+  margin: 13px 0 0 85px;
+}
+.wrap .content .introduce .recommend ul li div p {
+  clear: both;
+  font-size: 28px;
+  color: #282828;
+  height: 58px;
+  text-align: center;
+  line-height: 70px;
+}

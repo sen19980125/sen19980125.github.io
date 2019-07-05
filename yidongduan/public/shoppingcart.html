@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=750,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+	<meta name='renderer' content="webkit|ie-comp|ie-stand">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/shoppingcart.css">
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/storage.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="wrap" id="app">
+		<div class="search">
+			<div class="search_icon">
+				<span id="back" @touchstart="back"></span>
+				<div class="search_box">
+					<p>购物车</p>
+				</div>
+				<b>完成</b>
+			</div>
+		</div>
+		<ul class="list">
+			<li v-for="item in json">
+				<div>
+					<input type="checkbox" v-model="item.isDelete" @input="monitor" :checked="checked"/>
+					<img :src="item.img"/>
+				</div>
+				<div>
+					<h3>{{item.name}}</h3>
+					<p>{{item.info}}</p>
+					<p>
+						<b>{{item.price}}</b>
+						<span class="reduce" @touchstart="reduce(item)">＜</span>
+						<span class="total">{{item.num}}</span>
+						<span class="plus" @touchstart="increase(item)">＞</span>
+					</p>
+				</div>
+			</li>
+			<!-- <li>
+				<div>
+					<input type="checkbox"/>
+					<img src="img/car03.png"/>
+				</div>
+				<div>
+					<h3>风影</h3>
+					<p>机身烤漆工艺，面板采用全新环保，亚克力镜面拉丝工艺...</p>
+					<p>
+						<b>¥&nbsp;8999.00</b>
+						<span class="reduce">＜</span>
+						<span class="total">1</span>
+						<span class="plus">＞</span>
+					</p>
+				</div>
+			</li> -->
+		</ul>
+		<div class="success"></div>
+		<div class="checkout">
+			<input type="checkbox" @input="AllElection"/>
+			<i>全选</i>
+			<em id="clear" @touchstart="clear">清理</em>
+			<b>移入收藏夹</b>
+			<span class="settlement" @touchstart="settlement">结算</span>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script src="js/fx.js"></script>
+	<script type="text/javascript" src='js/public.js'></script>
+	<script type="text/javascript" src='js/vue.js'></script>
+	<script type="text/javascript" src="js/shoppingcart.js"></script>
+</body>
+</html>

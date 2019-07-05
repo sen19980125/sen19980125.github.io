@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=750,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+	<meta name='renderer' content="webkit|ie-comp|ie-stand">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/cashier.css">
+	<link rel="stylesheet" href="css/public.css">
+	<script type="text/javascript" src='js/vue.js'></script>
+	<script src="js/storage.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="wrap" id="app">
+		<div class="search">
+			<div class="search_icon">
+				<span @touchstart='back'></span>
+				<div class="search_box">
+					<p>收银台</p>
+				</div>
+			</div>
+		</div>
+		<div class="payment">
+			<div class="price">
+				<div>
+					<span></span>
+					<b>订单已经确定，请尽快付款</b>
+					<b>超过24小时则订单失效</b>
+				</div>
+				<p>您的订单号为：5467963549416</p>
+				<p>需要支付金额：¥{{money}}.00</p>
+			</div>
+			<div class="paymentmethod">
+				<h3>请选择在线支付方式</h3>
+				<div v-for="item in newData">
+					<span></span>
+					<b>{{item}}</b>
+					<label>
+						<input type="checkbox" @input="monitor"/>
+						<i></i>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="success"></div>
+		<div class="payment_btn">
+			<button class="btn" @touchstart="payment">立即支付</button>
+		</div>
+		<div class="payment_mask">
+			<div>
+				<p>¥{{money}}.00</p>
+				<p>请输入密码:<input type="password"/></p>
+				<button type="button" @touchstart="ConfirmPayment">确认支付</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script src="js/fx.js"></script>
+	<script src='js/cashier.js'></script>
+</body>
+</html>
